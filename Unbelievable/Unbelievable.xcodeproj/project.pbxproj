@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BBB356131920C56700825B27 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBB356121920C56700825B27 /* Cocoa.framework */; };
+		BBB3561D1920C56700825B27 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BBB3561B1920C56700825B27 /* InfoPlist.strings */; };
+		BBB3561F1920C56700825B27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB3561E1920C56700825B27 /* main.m */; };
+		BBB356231920C56700825B27 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = BBB356211920C56700825B27 /* Credits.rtf */; };
+		BBB356261920C56700825B27 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB356251920C56700825B27 /* AppDelegate.m */; };
+		BBB356291920C56700825B27 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBB356271920C56700825B27 /* MainMenu.xib */; };
+		BBB3562B1920C56700825B27 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBB3562A1920C56700825B27 /* Images.xcassets */; };
+		BBB356321920C56700825B27 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBB356311920C56700825B27 /* XCTest.framework */; };
+		BBB356331920C56700825B27 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBB356121920C56700825B27 /* Cocoa.framework */; };
+		BBB3563B1920C56700825B27 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BBB356391920C56700825B27 /* InfoPlist.strings */; };
+		BBB3563D1920C56700825B27 /* UnbelievableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB3563C1920C56700825B27 /* UnbelievableTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BBB356341920C56700825B27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBB356071920C56700825B27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBB3560E1920C56700825B27;
+			remoteInfo = Unbelievable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BBB3560F1920C56700825B27 /* Unbelievable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Unbelievable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBB356121920C56700825B27 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		BBB356151920C56700825B27 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		BBB356161920C56700825B27 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BBB356171920C56700825B27 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BBB3561A1920C56700825B27 /* Unbelievable-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Unbelievable-Info.plist"; sourceTree = "<group>"; };
+		BBB3561C1920C56700825B27 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BBB3561E1920C56700825B27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BBB356201920C56700825B27 /* Unbelievable-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Unbelievable-Prefix.pch"; sourceTree = "<group>"; };
+		BBB356221920C56700825B27 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		BBB356241920C56700825B27 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BBB356251920C56700825B27 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BBB356281920C56700825B27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		BBB3562A1920C56700825B27 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BBB356301920C56700825B27 /* UnbelievableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnbelievableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBB356311920C56700825B27 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BBB356381920C56700825B27 /* UnbelievableTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UnbelievableTests-Info.plist"; sourceTree = "<group>"; };
+		BBB3563A1920C56700825B27 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BBB3563C1920C56700825B27 /* UnbelievableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnbelievableTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBB3560C1920C56700825B27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBB356131920C56700825B27 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBB3562D1920C56700825B27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBB356331920C56700825B27 /* Cocoa.framework in Frameworks */,
+				BBB356321920C56700825B27 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BBB356061920C56700825B27 = {
+			isa = PBXGroup;
+			children = (
+				BBB356181920C56700825B27 /* Unbelievable */,
+				BBB356361920C56700825B27 /* UnbelievableTests */,
+				BBB356111920C56700825B27 /* Frameworks */,
+				BBB356101920C56700825B27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BBB356101920C56700825B27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBB3560F1920C56700825B27 /* Unbelievable.app */,
+				BBB356301920C56700825B27 /* UnbelievableTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBB356111920C56700825B27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BBB356121920C56700825B27 /* Cocoa.framework */,
+				BBB356311920C56700825B27 /* XCTest.framework */,
+				BBB356141920C56700825B27 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BBB356141920C56700825B27 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BBB356151920C56700825B27 /* AppKit.framework */,
+				BBB356161920C56700825B27 /* CoreData.framework */,
+				BBB356171920C56700825B27 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		BBB356181920C56700825B27 /* Unbelievable */ = {
+			isa = PBXGroup;
+			children = (
+				BBB356241920C56700825B27 /* AppDelegate.h */,
+				BBB356251920C56700825B27 /* AppDelegate.m */,
+				BBB356271920C56700825B27 /* MainMenu.xib */,
+				BBB3562A1920C56700825B27 /* Images.xcassets */,
+				BBB356191920C56700825B27 /* Supporting Files */,
+			);
+			path = Unbelievable;
+			sourceTree = "<group>";
+		};
+		BBB356191920C56700825B27 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BBB3561A1920C56700825B27 /* Unbelievable-Info.plist */,
+				BBB3561B1920C56700825B27 /* InfoPlist.strings */,
+				BBB3561E1920C56700825B27 /* main.m */,
+				BBB356201920C56700825B27 /* Unbelievable-Prefix.pch */,
+				BBB356211920C56700825B27 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BBB356361920C56700825B27 /* UnbelievableTests */ = {
+			isa = PBXGroup;
+			children = (
+				BBB3563C1920C56700825B27 /* UnbelievableTests.m */,
+				BBB356371920C56700825B27 /* Supporting Files */,
+			);
+			path = UnbelievableTests;
+			sourceTree = "<group>";
+		};
+		BBB356371920C56700825B27 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BBB356381920C56700825B27 /* UnbelievableTests-Info.plist */,
+				BBB356391920C56700825B27 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBB3560E1920C56700825B27 /* Unbelievable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBB356401920C56700825B27 /* Build configuration list for PBXNativeTarget "Unbelievable" */;
+			buildPhases = (
+				BBB3560B1920C56700825B27 /* Sources */,
+				BBB3560C1920C56700825B27 /* Frameworks */,
+				BBB3560D1920C56700825B27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Unbelievable;
+			productName = Unbelievable;
+			productReference = BBB3560F1920C56700825B27 /* Unbelievable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BBB3562F1920C56700825B27 /* UnbelievableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBB356431920C56700825B27 /* Build configuration list for PBXNativeTarget "UnbelievableTests" */;
+			buildPhases = (
+				BBB3562C1920C56700825B27 /* Sources */,
+				BBB3562D1920C56700825B27 /* Frameworks */,
+				BBB3562E1920C56700825B27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBB356351920C56700825B27 /* PBXTargetDependency */,
+			);
+			name = UnbelievableTests;
+			productName = UnbelievableTests;
+			productReference = BBB356301920C56700825B27 /* UnbelievableTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBB356071920C56700825B27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Evgeniy Kapralov";
+				TargetAttributes = {
+					BBB3562F1920C56700825B27 = {
+						TestTargetID = BBB3560E1920C56700825B27;
+					};
+				};
+			};
+			buildConfigurationList = BBB3560A1920C56700825B27 /* Build configuration list for PBXProject "Unbelievable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BBB356061920C56700825B27;
+			productRefGroup = BBB356101920C56700825B27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBB3560E1920C56700825B27 /* Unbelievable */,
+				BBB3562F1920C56700825B27 /* UnbelievableTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBB3560D1920C56700825B27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBB3561D1920C56700825B27 /* InfoPlist.strings in Resources */,
+				BBB3562B1920C56700825B27 /* Images.xcassets in Resources */,
+				BBB356231920C56700825B27 /* Credits.rtf in Resources */,
+				BBB356291920C56700825B27 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBB3562E1920C56700825B27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBB3563B1920C56700825B27 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBB3560B1920C56700825B27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBB356261920C56700825B27 /* AppDelegate.m in Sources */,
+				BBB3561F1920C56700825B27 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBB3562C1920C56700825B27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBB3563D1920C56700825B27 /* UnbelievableTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BBB356351920C56700825B27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBB3560E1920C56700825B27 /* Unbelievable */;
+			targetProxy = BBB356341920C56700825B27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BBB3561B1920C56700825B27 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBB3561C1920C56700825B27 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BBB356211920C56700825B27 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBB356221920C56700825B27 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		BBB356271920C56700825B27 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBB356281920C56700825B27 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		BBB356391920C56700825B27 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBB3563A1920C56700825B27 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BBB3563E1920C56700825B27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BBB3563F1920C56700825B27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BBB356411920C56700825B27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Unbelievable/Unbelievable-Prefix.pch";
+				INFOPLIST_FILE = "Unbelievable/Unbelievable-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BBB356421920C56700825B27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Unbelievable/Unbelievable-Prefix.pch";
+				INFOPLIST_FILE = "Unbelievable/Unbelievable-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BBB356441920C56700825B27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Unbelievable.app/Contents/MacOS/Unbelievable";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Unbelievable/Unbelievable-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UnbelievableTests/UnbelievableTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BBB356451920C56700825B27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Unbelievable.app/Contents/MacOS/Unbelievable";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Unbelievable/Unbelievable-Prefix.pch";
+				INFOPLIST_FILE = "UnbelievableTests/UnbelievableTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBB3560A1920C56700825B27 /* Build configuration list for PBXProject "Unbelievable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBB3563E1920C56700825B27 /* Debug */,
+				BBB3563F1920C56700825B27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBB356401920C56700825B27 /* Build configuration list for PBXNativeTarget "Unbelievable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBB356411920C56700825B27 /* Debug */,
+				BBB356421920C56700825B27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BBB356431920C56700825B27 /* Build configuration list for PBXNativeTarget "UnbelievableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBB356441920C56700825B27 /* Debug */,
+				BBB356451920C56700825B27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBB356071920C56700825B27 /* Project object */;
+}
