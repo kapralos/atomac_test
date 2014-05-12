@@ -675,7 +675,7 @@
                 <rect key="frame" x="0.0" y="0.0" width="480" height="360"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2tf-4r-0nN">
+                    <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2tf-4r-0nN" userLabel="inputTextField">
                         <rect key="frame" x="22" y="293" width="438" height="22"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="3Ad-zJ-J0N">
@@ -684,7 +684,7 @@
                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
-                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YXj-oM-GFJ">
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YXj-oM-GFJ" userLabel="inputTextLabel">
                         <rect key="frame" x="20" y="323" width="442" height="17"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="left" title="Input your text:" id="zlc-ha-EYL">
@@ -693,7 +693,7 @@
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
-                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IOA-7p-gQf">
+                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IOA-7p-gQf" userLabel="prefixCheckBox">
                         <rect key="frame" x="20" y="269" width="104" height="18"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="check" title="Add prefix" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="RcW-Ut-QG0">
@@ -713,18 +713,18 @@
                         </buttonCell>
                         <cells>
                             <column>
-                                <buttonCell type="radio" title="Upper case" imagePosition="left" alignment="left" state="on" tag="1" inset="2" id="PHe-Xk-rO4">
+                                <buttonCell type="radio" title="Upper case" imagePosition="left" alignment="left" state="on" tag="1" inset="2" id="PHe-Xk-rO4" userLabel="upperCaseRadio">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
-                                <buttonCell type="radio" title="Lower case" imagePosition="left" alignment="left" inset="2" id="JSs-eu-76T">
+                                <buttonCell type="radio" title="Lower case" imagePosition="left" alignment="left" inset="2" id="JSs-eu-76T" userLabel="lowerCaseRadio">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                             </column>
                         </cells>
                     </matrix>
-                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="USw-Lk-Di2">
+                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="USw-Lk-Di2" userLabel="tranformButton">
                         <rect key="frame" x="14" y="185" width="165" height="32"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="push" title="Transform text" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="NuX-2l-ifN">
@@ -739,7 +739,7 @@
                             <rect key="frame" x="1" y="1" width="438" height="161"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             <subviews>
-                                <textView ambiguous="YES" importsGraphics="NO" findStyle="panel" continuousSpellChecking="YES" allowsUndo="YES" usesRuler="YES" usesFontPanel="YES" verticallyResizable="YES" allowsNonContiguousLayout="YES" quoteSubstitution="YES" dashSubstitution="YES" spellingCorrection="YES" smartInsertDelete="YES" id="9fQ-pn-zon">
+                                <textView ambiguous="YES" importsGraphics="NO" findStyle="panel" continuousSpellChecking="YES" allowsUndo="YES" usesRuler="YES" usesFontPanel="YES" verticallyResizable="YES" allowsNonContiguousLayout="YES" quoteSubstitution="YES" dashSubstitution="YES" spellingCorrection="YES" smartInsertDelete="YES" id="9fQ-pn-zon" userLabel="resultTextView">
                                     <rect key="frame" x="0.0" y="0.0" width="438" height="161"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
