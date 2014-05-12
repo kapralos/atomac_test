@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 
+#define TEXT_PREFIX @"prefix"
+
 @interface AppDelegate()
 
 @property (weak) IBOutlet NSTextField* inputTextField;
@@ -25,15 +27,20 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     // Insert code here to initialize your application
-    [self.inputTextField setStringValue:@"ololo"];
-    [self.prefixCheckBox setState:NSOffState];
-    self.upperCaseRadio.state = NSOnState;
-    self.lowerCaseRadio.state = NSOnState;
 }
 
 - (void)selectTransformButton:(id)sender
 {
-    [self.resultTextView setString:@"ololo"];
+    NSString* result = (self.prefixCheckBox.state == NSOnState) ? [NSString stringWithFormat:@"%@%@", TEXT_PREFIX, self.inputTextField.stringValue] : self.inputTextField.stringValue;
+    if (self.upperCaseRadio.state == NSOnState)
+    {
+        result = [result uppercaseString];
+    }
+    else
+    {
+        result = [result lowercaseString];
+    }
+    self.resultTextView.string = result;
 }
 
 @end
