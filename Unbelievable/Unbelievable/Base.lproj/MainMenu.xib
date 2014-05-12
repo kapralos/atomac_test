@@ -13,6 +13,11 @@
         <customObject id="-3" userLabel="Application"/>
         <customObject id="Voe-Tx-rLC" customClass="AppDelegate">
             <connections>
+                <outlet property="inputTextField" destination="2tf-4r-0nN" id="9ky-8W-5Yv"/>
+                <outlet property="lowerCaseRadio" destination="JSs-eu-76T" id="4vJ-Vm-0Bf"/>
+                <outlet property="prefixCheckBox" destination="IOA-7p-gQf" id="GiQ-bp-vOG"/>
+                <outlet property="resultTextView" destination="9fQ-pn-zon" id="pJW-LM-xSj"/>
+                <outlet property="upperCaseRadio" destination="PHe-Xk-rO4" id="Abn-oQ-juD"/>
                 <outlet property="window" destination="QvC-M9-y7g" id="gIp-Ho-8D9"/>
             </connections>
         </customObject>
@@ -731,6 +736,9 @@
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
                         </buttonCell>
+                        <connections>
+                            <action selector="selectTransformButton:" target="Voe-Tx-rLC" id="wp0-Bw-q4V"/>
+                        </connections>
                     </button>
                     <scrollView fixedFrame="YES" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yms-mS-8FZ">
                         <rect key="frame" x="20" y="20" width="440" height="163"/>
